@@ -13,17 +13,16 @@ Para instalar WSL en Windows 10 o Windows 11, podeís seguir la guía oficial de
 Aun así, os dejo un resumen de los pasos a seguir para instalar WSL en Windows 10 o Windows 11:
 1. Instalar la característica de Windows Subsystem for Linux:
     - Abrir PowerShell como administrador.
-    - Ejecutar el siguiente comando:\
-    <br>
+    - Ejecutar el siguiente comando:
     ```powershell
     wsl --install
     ```
     - Reiniciar el ordenador.
-2. Por defecto, WSL instalará la distribución de Linux de Ubuntu. Si queréis instalar otra distribución de Linux, podéis hacerlo desde la Microsoft Store.
-3. Configurar la distribución de Linux:
+1. Por defecto, WSL instalará la distribución de Linux de Ubuntu. Si queréis instalar otra distribución de Linux, podéis hacerlo desde la Microsoft Store.
+2. Configurar la distribución de Linux:
     - Abrir la distribución
     - Configurar un nombre de usuario y una contraseña (se requerirá para instalar paquetes y actualizar la distribución)
-4. ¡Listo! Ya tenéis WSL instalado en vuestro ordenador.
+3. ¡Listo! Ya tenéis WSL instalado en vuestro ordenador.
 
 Al abrir la terminal de Linux, se abrirá por defecto en la ruta base, con lo cual para acceder por ejemplo al escritorio de Windows habrá que ejecutar el siguiente comando (sustituyendo `<nombre_usuario>` por el nombre de usuario de Windows):
 ```bash
