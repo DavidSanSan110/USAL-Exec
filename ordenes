@@ -1,0 +1,6 @@
+meter pasword y yes en el script
+
+sudo apt-get update
+sudo apt-get install libc6-i386
+sudo wget -P "/bin/" "http://avellano.usal.es/~compii/as6809" "http://avellano.usal.es/~compii/aslink" "http://avellano.usal.es/~compii/m6809-run"
+sudo chmod +x "/bin/as6809" "/bin/aslink" "/bin/m6809-run"
