@@ -24,26 +24,6 @@ Por estas razones, **WSL es una herramienta esencial** para los estudiantes de i
 
 ---
 
-## 🔑 Habilitar la Virtualización y **Hyper-V**
-
-Antes de instalar WSL, es necesario habilitar la **virtualización** y **Hyper-V** en tu equipo. **Hyper-V** es la tecnología de virtualización nativa de Windows que permite a WSL funcionar correctamente. Sigue estos pasos para asegurarte de que la virtualización está activada:
-
-1. **Habilitar Hyper-V**:
-    - Abre **PowerShell** como administrador.
-    - Ejecuta el siguiente comando:
-      ```powershell
-      Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
-      ```
-    - Reinicia tu computadora.
-
-    Si necesitas más detalles, puedes consultar la [guía oficial para habilitar Hyper-V en Windows](https://learn.microsoft.com/es-es/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v).
-
-2. **Habilitar la Virtualización desde la BIOS** (si es necesario):
-    - En algunos casos, es posible que necesites cambiar un parámetro en la **BIOS** para activar la virtualización.
-    - Sigue esta [guía para habilitar la virtualización en la BIOS](https://support.microsoft.com/es-es/windows/habilitar-la-virtualización-en-windows-c5578302-6e43-4b4b-a449-8ced115f58e1).
-
----
-
 ## 🛠️ ¿Cómo instalar WSL?
 
 Una vez habilitada la virtualización y **Hyper-V**, puedes proceder a instalar **WSL**. Puedes seguir la [guía oficial de Microsoft](https://learn.microsoft.com/es-es/windows/wsl/install), pero aquí te dejamos un resumen de los pasos:
@@ -66,6 +46,24 @@ Una vez habilitada la virtualización y **Hyper-V**, puedes proceder a instalar 
     - Establece un nombre de usuario y contraseña (necesarios para instalar paquetes y realizar actualizaciones).
 
 4. **¡Listo!** Ya tienes WSL instalado y puedes comenzar a trabajar.
+
+### 🔑 Habilitar la Virtualización y **Hyper-V**
+
+Si durante la instalación de **WSL** encuentras problemas relacionados con la virtualización o **Hyper-V**, es posible que necesites habilitar estas características en tu sistema. Aquí tienes una guía rápida para hacerlo:
+
+1. **Habilitar Hyper-V**:
+    - Abre **PowerShell** como administrador.
+    - Ejecuta el siguiente comando:
+      ```powershell
+      Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+      ```
+    - Reinicia tu computadora.
+
+    Si necesitas más detalles, puedes consultar la [guía oficial para habilitar Hyper-V en Windows](https://learn.microsoft.com/es-es/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v).
+
+2. **Habilitar la Virtualización desde la BIOS** (si es necesario):
+    - En algunos casos, es posible que necesites cambiar un parámetro en la **BIOS** para activar la virtualización.
+    - Sigue esta [guía para habilitar la virtualización en la BIOS](https://support.microsoft.com/es-es/windows/habilitar-la-virtualización-en-windows-c5578302-6e43-4b4b-a449-8ced115f58e1).
 
 ### Acceder a Archivos de Windows desde Linux:
 

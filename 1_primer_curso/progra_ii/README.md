@@ -98,6 +98,18 @@ Una vez que tienes tu `Makefile` creado, puedes compilar y limpiar tu proyecto f
 
 ---
 
+## 💻 Ejecución del proyecto
+
+Para ejecutar tu programa compilado, simplemente escribe:
+
+```bash
+./programa
+```
+
+Esto ejecutará tu programa y mostrará la salida en la terminal.
+
+---
+
 ## 📂 Estructura del Proyecto
 
 Tu proyecto debe verse más o menos así:
